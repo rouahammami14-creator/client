@@ -17,7 +17,7 @@ import toast, { Toaster } from "react-hot-toast"
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
